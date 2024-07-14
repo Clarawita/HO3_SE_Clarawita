@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+body{
+  height: 200vh;
+  width: 100%;
+  background-color: #f7f5fa;
+  /* font-family: 'Poppins', sans-serif; */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.element::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.alist{
+  @apply relative text-font-black font-medium text-xl transition-transform duration-200 hover:after:scale-x-100 after:absolute after:bottom-[-0.1em] after:h-[0.1em] after:w-full after:left-0 after:bg-font-black after:transition-transform after:duration-200 after:ease-in-out after:scale-x-0;
+}
+
