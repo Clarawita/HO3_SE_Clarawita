@@ -1,7 +1,11 @@
-import { Navbar } from "../components/Navbar/Navbar"
+import { Navbar, Hero, Quality } from "../components/index"
 
 export default function Page() {
   return (
-    <Navbar/>
+    <>
+      <Navbar/>
+      <Hero/>
+      <Quality/>
+    </>
   )
 }

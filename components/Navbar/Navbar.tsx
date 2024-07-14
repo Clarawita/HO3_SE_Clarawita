@@ -47,7 +47,7 @@ export const Navbar = () => {
         ))}
       </ul>
 
-      <a className="hidden md:flex text-black font-medium text-lg py-3 px-6 rounded-lg text-white bg-purple transition-all duration-200 hover:bg-[#e2d2fa] hover:text-purple" href="#">Login</a>
+      <a className="hidden md: button1" href="#">Login</a>
       <div className={`hamburger md:hidden ${menuOpen ? 'active' : ''}`} onClick={mobileMenu}>
         <span className={`bar block w-6 h-0.5 my-1 mx-auto transition-all duration-300 bg-black ${menuOpen ? 'transform translate-y-2 rotate-45' : ''}`}></span>
         <span className={`bar block w-6 h-0.5 my-1 mx-auto transition-all duration-300 bg-black ${menuOpen ? 'opacity-0' : ''}`}></span>
