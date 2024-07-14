@@ -29,7 +29,7 @@ body{
 }
 
 .button1{
-  @apply flex text-black font-medium text-lg py-3 px-6 rounded-lg text-white bg-purple transition-all duration-200 hover:bg-[#e2d2fa] hover:text-purple;
+  @apply text-black font-medium text-lg py-3 px-6 rounded-lg text-white bg-purple transition-all duration-200 hover:bg-[#e2d2fa] hover:text-purple;
 }
 
 .button2{

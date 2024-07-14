@@ -46,7 +46,7 @@ export const Navbar = () => {
         ))}
       </ul>
 
-      <a className="hidden md: button1" href="#">Login</a>
+      <a className="hidden button1 md:flex" href="#">Login</a>
       <div className={`hamburger md:hidden ${menuOpen ? 'active' : ''}`} onClick={mobileMenu}>
         <span className={`bar block w-6 h-0.5 my-1 mx-auto transition-all duration-300 bg-black ${menuOpen ? 'transform translate-y-2 rotate-45' : ''}`}></span>
         <span className={`bar block w-6 h-0.5 my-1 mx-auto transition-all duration-300 bg-black ${menuOpen ? 'opacity-0' : ''}`}></span>

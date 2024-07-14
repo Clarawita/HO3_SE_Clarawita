@@ -1,4 +1,4 @@
-import { Navbar, Hero, Quality,StandardSection } from "../components/index"
+import { Navbar, Hero, Quality, StandardSection, Footer } from "../components/index"
 
 export default function Page() {
   return (
@@ -7,6 +7,7 @@ export default function Page() {
       <Hero/>
       <Quality/>
       <StandardSection />
+      <Footer />
     </>
   )
 }
