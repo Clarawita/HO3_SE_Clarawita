@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export const Hero = () => {
   return (
-    <section className="flex justify-between items-center gap-4 w-11/12 mx-auto mb-[25vh] pt-28">
+    <section className="flex justify-between items-center gap-4 w-5/6 mx-auto mb-[25vh] pt-28">
       <span className="flex flex-col items-start gap-4 w-1/2">
         <h4 className="font-poppins font-medium text-red text-xl py-3 px-6 rounded-lg bg-white">Never Stop Learning</h4>
         <h1 className="text-font-black font-bold leading-tight text-6xl tracking-normal">
