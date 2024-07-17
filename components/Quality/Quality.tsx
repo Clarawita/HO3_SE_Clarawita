@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const Quality = () => {
   return (
-    <section className="relative flex flex-col items-center justify-center gap-8 w-11/12 mx-auto mb-[25vh] z-[-1]">
+    <section className="relative flex flex-col items-center justify-center gap-8 w-11/12 mx-auto mb-[25vh]">
       <Image
         className="absolute top-[250px] right-[50px] z-[-2]"
         src="/images/Pattern.svg"
@@ -21,10 +21,7 @@ export const Quality = () => {
           480 vertical scan lines or 576 vertical lines is considered
           high-definition.
         </p>
-        <a
-          className="button2"
-          href="#"
-        >
+        <a className="button2" href="#">
           Visit courses
         </a>
       </div>
@@ -46,12 +43,7 @@ export const Quality = () => {
               key={index}
               className="flex items-center gap-4 py-4 px-5 rounded-lg bg-white text-black font-semibold text-xl"
             >
-              <Image
-                src={image}
-                alt={desc}
-                width={50}
-                height={50}
-              />
+              <Image src={image} alt={desc} width={50} height={50} />
               <p>{desc}</p>
             </span>
           ))}

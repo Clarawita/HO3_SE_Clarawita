@@ -26,7 +26,7 @@ export const Navbar = () => {
   };
 
   return (
-    <nav className={`fixed flex flex-row justify-between w-full items-center py-8 px-6 lg:px-20 md:px-12 sm:px-12 transition-colors duration-200 ${scrolled ? 'bg-[#f5efff]' : 'bg-transparent'}`}>
+    <nav className={`z-10 fixed flex flex-row justify-between w-full items-center py-8 px-6 lg:px-20 md:px-12 sm:px-12 transition-colors duration-200 ${scrolled ? 'bg-[#f5efff]' : 'bg-transparent'}`}>
       <a className="w-5\/6">
         <Image
           src="/images/logo.png"

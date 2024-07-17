@@ -33,5 +33,5 @@ body{
 }
 
 .button2{
-  @apply bg-purple border-none text-white font-medium text-lg py-3 px-6 text-base rounded-lg transition-opacity duration-200 hover:opacity-80 active:opacity-70
+  @apply bg-purple border-none text-white font-medium text-lg py-3 px-6 text-base rounded-lg transition-opacity duration-200 hover:opacity-80 active:opacity-70;
 }
