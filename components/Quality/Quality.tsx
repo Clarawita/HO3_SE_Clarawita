@@ -27,7 +27,7 @@ export const Quality = () => {
           480 vertical scan lines or 576 vertical lines is considered
           high-definition.
         </p>
-        <Button onClick={handleButtonClick} className="button2" href="/courses" content="Visit Courses"/>
+        <Button onClick={handleButtonClick} className="button2" href="/course" content="Visit Courses"/>
 
       </div>
       <div className="flex flex-col items-center justify-center gap-8">
