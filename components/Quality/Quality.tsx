@@ -1,6 +1,12 @@
 import Image from "next/image";
+import { Button } from "../Button";
 
 export const Quality = () => {
+  
+  const handleButtonClick = () => {
+    console.log("Button clicked!");
+  };
+
   return (
     <section className="relative flex flex-col items-center justify-center gap-8 w-11/12 mx-auto mb-[25vh]">
       <Image
@@ -21,9 +27,8 @@ export const Quality = () => {
           480 vertical scan lines or 576 vertical lines is considered
           high-definition.
         </p>
-        <a className="button2" href="#">
-          Visit courses
-        </a>
+        <Button onClick={handleButtonClick} className="button2" href="/courses" content="Visit Courses"/>
+
       </div>
       <div className="flex flex-col items-center justify-center gap-8">
         <Image

@@ -39,7 +39,7 @@ export const Navbar = () => {
         {[
           ['Home', '/'],
           ['About', '/'],
-          ['Course', '/'],
+          ['Course', '/course'],
           ['Contact', '/'],
         ].map(([title, url, index]) => (
           <li key={index}><a href={url} className="alist">{title}</a></li>

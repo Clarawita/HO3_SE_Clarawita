@@ -1,7 +1,6 @@
 // import { title } from "process";
 import { StCardList } from "./StandardCardList";
 import { Button } from "../Button";
-import { useRouter } from "next/router";
 
 const data = [
   {
@@ -62,7 +61,7 @@ function StandardSection() {
         </p>
       </div>
       <StCardList cards={data} />
-      <Button onClick={handleButtonClick} className="button2" href="/class" content="Visit more classes"/>
+      <Button onClick={handleButtonClick} className="button2" href="#" content="Visit more classes"/>
     </section>
   );
 }
